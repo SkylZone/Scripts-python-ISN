@@ -41,15 +41,39 @@ def gamma(s):
     return X
 
 def descenteProfondeur(s):
+    Marquee
+    rp(s)
+    def rp(s):
+        var t :sommets
+
+        Marquee[s]=True
+
+            if not Marquee(t)de gamma
+
+
+
+
+
     # Algorithme de descente en profondeur à partir du sommet s
+
 
 # A VOUS D'ECRIRE CETTE PARTIE
 
 def descenteLargeur(s):
+    finDescente = False
+    k = 0
+    x = {s}
+    Marquee = (0,0,0,0,0,0)
+    while not finDescente:
+        k = k+1
+        #Marquer tout les sommets de # X
+        Y =
+
+
+
     # Algorithme de descente en largeur à partir du sommet s
 
  # A VOUS D'ECRIRE CETTE PARTIE
-
 
 
 #MAIN
