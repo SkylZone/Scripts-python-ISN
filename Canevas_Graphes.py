@@ -8,7 +8,7 @@ matAdj = [[0,1,1,0,0,0],
           [1,0,0,1,0,0],
           [0,1,0,0,0,0],
           [0,0,0,0,0,0],
-          [0,1,0,1,1,0]],
+          [0,1,0,1,1,0]]
 
 aps = [0 for k in range(n)]
 fs = []
@@ -41,14 +41,13 @@ def gamma(s):
     return X
 
 def descenteProfondeur(s):
-    Marquee
-    rp(s)
-    def rp(s):
-        var t :sommets
+    explore[s-1] = True
+    print("Visite du sommet", s, "\n")
 
-        Marquee[s]=True
-
-            if not Marquee(t)de gamma
+    Y = gamma(s)
+    for t in Y:
+        if not(explore[t-1]):
+            descenteProfondeur(t)
 
 
 
@@ -62,12 +61,30 @@ def descenteProfondeur(s):
 def descenteLargeur(s):
     finDescente = False
     k = 0
-    x = {s}
-    Marquee = (0,0,0,0,0,0)
+    X = [s]
+    Y = []
     while not finDescente:
         k = k+1
-        #Marquer tout les sommets de # X
-        Y =
+        for t in X:
+            explore[t-1] = True
+            print("Visite du sommet",t,"\n")
+            if t not in Y:
+                    Y.append(t)
+            Xtemp = []
+            for t in X:
+                Z = gamme(t)
+            for z in Z:
+                if z not in Y and z not inXtemp:
+                    Xtemp.append(z)
+
+
+
+
+            X = Xtemp
+            if X ==[]:
+                finDescente = True
+
+
 
 
 
